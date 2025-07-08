@@ -1,0 +1,14 @@
+{
+  "name": "@velonus/ui",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "echo 'UI package - to be implemented'",
+    "dev": "echo 'UI package - to be implemented'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+} 
