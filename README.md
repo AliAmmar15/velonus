@@ -292,7 +292,7 @@ Velonus/
 ### **Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/velonus.git
+git clone https://github.com/aliammar15/velonus.git
 cd velonus
 
 # Install dependencies
@@ -482,9 +482,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-**Built with ❤️ by the Velonus Team**
+**Built with ❤️ by Ali Ammar **
 
-[🌐 Website](https://velonus.dev) • [📧 Contact](mailto:hello@velonus.dev) • [🐦 Twitter](https://twitter.com/velonus) • [💬 Discord](https://discord.gg/velonus)
 
 ---
 
