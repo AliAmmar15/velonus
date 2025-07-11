@@ -1,31 +1,27 @@
 {
   "name": "@velonus/shared",
   "version": "1.0.0",
+  "private": true,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
-    "lint": "eslint src/",
+    "build": "tsc",
+    "dev": "tsc --watch",
     "clean": "rm -rf dist",
+    "lint": "eslint src/",
     "type-check": "tsc --noEmit"
   },
-  "dependencies": {
-    "zod": "^3.22.0",
-    "date-fns": "^2.30.0",
-    "uuid": "^9.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/uuid": "^9.0.0",
-    "tsup": "^7.2.0",
+    "@types/node": "^20.0.0",
     "typescript": "^5.0.0",
     "eslint": "^8.0.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
   }
 } 

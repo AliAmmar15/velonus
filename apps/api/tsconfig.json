@@ -7,11 +7,15 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@velonus/shared": ["../../packages/shared/src"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["dist", "node_modules"],
   "references": [
-    { "path": "../shared" }
+    { "path": "../../packages/shared" }
   ]
 } 

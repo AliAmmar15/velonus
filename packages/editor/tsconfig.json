@@ -7,10 +7,15 @@
     "declaration": true,
     "declarationMap": true,
     "jsx": "react-jsx",
-    "noEmit": false
+    "noEmit": false,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["dist", "node_modules"],
+  "include": ["src/**/*", "src/**/*.tsx", "src/**/*.ts"],
+  "exclude": ["dist", "node_modules", "**/*.test.ts", "**/*.test.tsx"],
   "references": [
     { "path": "../shared" }
   ]
